@@ -1,0 +1,2 @@
+ninja: Entering directory `C:\Users\Parat\Desktop\Projects\image to speech blind\VisionReader\sdk\.cxx\Debug\64m52z5c\arm64-v8a'
+ninja: no work to do.

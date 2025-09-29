@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#121212"
+    android:orientation="vertical"
+    tools:context=".ResultsActivity">
+
+    <ScrollView
+        android:id="@+id/text_panel"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/recognized_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@android:color/white"
+            android:textSize="20sp"
+            android:textIsSelectable="true"
+            tools:text="Recognized text will appear here." />
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/controls_panel"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="16dp">
+
+        <Button
+            android:id="@+id/play_button"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="Play"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/pause_button"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:layout_weight="1"
+            android:text="Pause"
+            android:textSize="20sp" />
+
+        <Button
+            android:id="@+id/scan_new_button"
+            android:layout_width="0dp"
+            android:layout_height="120dp"
+            android:layout_marginStart="4dp"
+
+            android:layout_weight="1"
+            android:text="Scan New"
+            android:textSize="20sp" />
+
+    </LinearLayout>
+
+</LinearLayout>
